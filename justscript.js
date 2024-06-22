@@ -1,8 +1,3 @@
-window.onload = function() {
-    // similar behavior as an HTTP redirect
-    window.location.replace(`${window.location.href}/basicspage.html`);
-}
-
 document.getElementById('registrationForm').addEventListener('submit', function(event) {
     event.preventDefault(); // Prevent form from submitting
 
